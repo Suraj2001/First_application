@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void Strength(View view) {
+    public void strength(View view) {
         Intent intent = new Intent(this, SignalActivity.class);
                 startActivity(intent);
     }
